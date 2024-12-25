@@ -1,5 +1,5 @@
 # StacyEqualsCool
-Public static Command getFreeTime() {
+Public static Command setFreeTime() {
   return runOnce(() -> {
     programmingTime.set(freeTime);
     freeTime.set(0);
